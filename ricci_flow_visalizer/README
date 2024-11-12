@@ -1,0 +1,44 @@
+Ricci_rot: Visualization of Ricci Flow of Surfaces of Revolution
+Copyright (C) 2004  Robert M. Sinclair
+
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+MA  02110-1301, USA.
+
+-----------------------------------------------------------------
+
+Ricci_rot is an OpenGL application which visualizes Ricci flow
+on surfaces of revolution. It is written in ANSI C, and makes use
+of OpenGL and the GLUT utility toolkit.
+So far, it has only been tested on Mac OS X machines.
+
+It was written by Robert M. Sinclair, who can be contacted (valid
+2005) at the Department of Mathematical Sciences, Faculty of Science,
+University of the Ryukyus, Nishihara City, Okinawa 903-0213, Japan:
+sinclair@math.u-ryukyu.ac.jp or R.Sinclair@ms.unimelb.edu.au .
+
+In this zipfile, we include the source code ricci_rot.c and a
+working Mac OS X application produced from it (this is the directory
+Ricci_rot.app). The Mac OS X application was built using Xcode 1.1 under
+Mac OS X Version 10.3.9 in August 2005.
+
+The program should be easily portable to other operating systems
+with an appropriate C compiler and OpenGL libraries. Details will
+of course depend upon the particular operating system etc.
+
+For further information on Mac OS X, OpenGL and GLUT, see
+
+http://www.apple.com/macosx/
+http://www.opengl.org/
+http://www.opengl.org/resources/libraries/glut.html
